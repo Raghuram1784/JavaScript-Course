@@ -32,8 +32,40 @@ const obj3 =  {...obj1, ...obj2}
 
 
 
-console.log(instaUser)
-console.log(Object.keys(instaUser))
-console.log(Object.values(instaUser))
-console.log(Object.entries(instaUser))
-console.log(instaUser.hasOwnProperty("name"))
+// console.log(instaUser)
+// console.log(Object.keys(instaUser))
+// console.log(Object.values(instaUser))
+// console.log(Object.entries(instaUser))
+// console.log(instaUser.hasOwnProperty("name"))
+
+
+
+
+const course = {
+  courseName : "Javascript Series",
+  price : "999",
+  courseInstructor : "Hitesh"
+}
+//Another way of writing -----course.courseInstructor
+const {courseInstructor : instructor} = course 
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+
+//***************************************json structure*****************************************
+
+// {
+//   "name" : "Ram",
+//   "courseName" : "JavaScript series",
+//   "price" : "free"
+// }
+
+
+//***************************************API's structure*****************************************
+
+// [
+//   {},
+//   {},
+//   {},  
+// ]
