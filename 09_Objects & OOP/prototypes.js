@@ -4,6 +4,8 @@
 
 
 
+
+
 let heroes = ["thor", "captainAmerica"]
 let heroPower = {
     thor : "hammer",
@@ -51,8 +53,10 @@ const TASupport = {
     fullTime : true,
     __proto__ : teachingSupport
 }
-
 Teacher.__proto__ = user
+
+
+
 
 //modern syntax--------------------------------------------------------------------->>>>>>>
 
