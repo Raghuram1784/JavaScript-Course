@@ -5,6 +5,8 @@
 // Math.PI = 6
 // console.log(Math.PI);
 
+
+
 const course = {
     name : "Full Stack",
     price: 35000,
@@ -16,6 +18,8 @@ const course = {
 }
 // console.log(course);
 console.log(Object.getOwnPropertyDescriptor(course, "name"));
+
+
 
 
 Object.defineProperty(course, 'name', {
