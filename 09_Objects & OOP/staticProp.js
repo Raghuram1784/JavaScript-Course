@@ -12,7 +12,7 @@ class user{
     }
 }
 
-const ram = new user("Ram")
+// const ram = new user("Ram")
 // console.log(ram.createId());
 
 
